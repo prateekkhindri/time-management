@@ -2,3 +2,9 @@
   min-height: 100vh;
   background: linear-gradient(to bottom, #cef132, #25751b);
 }
+h1 {
+  text-transform: uppercase;
+}
+h2 {
+  text-transform: uppercase;
+}

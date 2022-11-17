@@ -110,71 +110,12 @@
 
             <div class="list-items">
               <table class="table table-striped">
-                <tbody>
-                  <tr>
-                    <td>
-                      <input type="checkbox" name="" id="" />
-                      Watching TV
-                    </td>
-                    <td>5 hr</td>
-                    <!-- text-end will push the buttons to the right of the box -->
-                    <td class="text-end">
-                      <!-- Using bootstrap to control the size of the buttons -->
-                      <button class="btn btn-danger btn-sm">
-                        <i class="fa-solid fa-trash" title="Delete"></i>
-                      </button>
-                      <button class="btn btn-sm btn-warning">
-                        <i
-                          class="fa-solid fa-arrow-right"
-                          title="Mark as bad list"
-                        ></i>
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <input type="checkbox" name="" id="" />
-                      Watching TV
-                    </td>
-                    <td>5 hr</td>
-                    <td class="text-end">
-                      <!-- Using bootstrap to control the size of the buttons -->
-                      <button class="btn btn-danger btn-sm">
-                        <i class="fa-solid fa-trash" title="Delete"></i>
-                      </button>
-                      <button class="btn btn-sm btn-warning">
-                        <i
-                          class="fa-solid fa-arrow-right"
-                          title="Mark as bad list"
-                        ></i>
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <input type="checkbox" name="" id="" />
-                      Watching TV
-                    </td>
-                    <td>5 hr</td>
-                    <td class="text-end">
-                      <!-- Using bootstrap to control the size of the buttons -->
-                      <button class="btn btn-danger btn-sm">
-                        <i class="fa-solid fa-trash" title="Delete"></i>
-                      </button>
-                      <button class="btn btn-sm btn-warning">
-                        <i
-                          class="fa-solid fa-arrow-right"
-                          title="Mark as bad list"
-                        ></i>
-                      </button>
-                    </td>
-                  </tr>
-                </tbody>
+                <tbody id="bad-list"></tbody>
               </table>
             </div>
             <!-- div class="ttl-bad" -->
-            <div class="ttl-bad text-end text-light">
-              Total time saved = 50hr
+            <div class="ttl-bad text-end fs-2 fw-bolder text-danger">
+              Total time saved = <span id="totalBadHrs">0</span> hr
             </div>
           </div>
         </div>
